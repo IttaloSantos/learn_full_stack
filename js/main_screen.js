@@ -1,8 +1,9 @@
-let counter = 0;
+let counter      = 0;
+let counter_year = document.getElementById("counter");
 
-function increment()
+function addYear()
 {
     console.log("Button has been clicked!");
-    counter = counter + 1;
-    document.getElementById("counter").innerText = counter;
+    counter++;
+    counter_year.textContent = counter;
 }
