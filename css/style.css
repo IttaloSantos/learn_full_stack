@@ -1,25 +1,33 @@
-body{
-    background-image: url(../images/sub.jpg);
+body {
+    background-image: url(../images/dance.jpg);
     background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
+    height: 100vh;
 }
 
-h1{
-    background-color: bisque;
-    font-size: xx-large;
-    color: brown;
+.add-year {
+    background: lightsalmon;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h1 {
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-h2{
-    background-color: bisque;
-    font-weight: bold;
-    position: center;
-    margin-bottom: 5px;
-    border-radius: 5px;
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
-button{
+button {
+    /* border: 1px solid black; */
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -29,10 +37,6 @@ button{
     border-radius: 5px;
 }
 
-#increment-btn{
-    background: darkred;
-}
-
-#clear-btn{
-    background: ;
+#add-btn{
+    background: darkorange;
 }
