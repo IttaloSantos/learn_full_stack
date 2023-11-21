@@ -5,11 +5,15 @@
     </head>
 
     <body>
-        <div class="add-year">
+        <div id="div-message" class="add-year" style="display: none;">
+            <h1>Happy Wedding Anniversary!</h1>
+            <h1>I love you!</h1>
+        </div>
+        <div id="div-counter" class="add-year">
             <audio id="audioContainer">
                 <source src="mp3/love.mp3">
             </audio>
-            <h1>Happy Wedding Anniversary!</h1>
+            <h1>Click button to increment year</h1>
             <h2 id="counter">0</h2>
             <button id="add-btn" onclick="addYear()">PLUS ONE</button>
             <script src="js/main_screen.js"></script>
